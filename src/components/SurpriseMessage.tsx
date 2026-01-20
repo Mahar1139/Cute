@@ -13,6 +13,8 @@ export default function SurpriseMessage() {
     'anyone who knows you like me',
     'is lucky to have you. 🌸',
     'Never change who you are ✨',
+    'I always wait for your msg',
+    '💖 Lve you Namudii 💖',
   ];
 
   return (
