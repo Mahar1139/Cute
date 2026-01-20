@@ -6,13 +6,14 @@ export default function SurpriseMessage() {
   const messageLines = [
     '💖 Surprise! 💖',
     'You are not just cute,',
-    'you are rare.',
+    'you are rare Nammu.',
     'Your smile can change moods,',
     'your presence feels calm,',
     'and honestly…',
-    'anyone who knows you',
+    'anyone who knows you like me',
     'is lucky to have you. 🌸',
     'Never change who you are ✨',
+    'kv muje v yaad krk 1 msg kr liya kro bhai',
   ];
 
   return (
