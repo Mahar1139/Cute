@@ -42,7 +42,7 @@ export default function QuestionCard({
   return (
     <Card
       ref={cardRef}
-      className="w-full max-w-md text-center animate-fade-in shadow-2xl shadow-primary/10 relative overflow-hidden"
+      className="w-full max-w-md text-center animate-fade-in shadow-2xl shadow-accent/10 relative overflow-hidden bg-card/80 backdrop-blur-sm"
     >
       <CardHeader>
         <CardTitle className="text-2xl md:text-3xl font-headline">
@@ -56,9 +56,10 @@ export default function QuestionCard({
         <Button
           onClick={onYesClick}
           size="lg"
-          className="font-bold text-lg w-32 z-10"
+          variant="secondary"
+          className="font-bold text-lg w-32 z-10 transform transition-transform hover:scale-110 active:scale-95"
         >
-          ✔ YES
+          YES
         </Button>
         <Button
           ref={buttonRef}
@@ -77,7 +78,7 @@ export default function QuestionCard({
           onMouseEnter={moveButton}
           onClick={moveButton}
         >
-          ❌ NO
+          NO
         </Button>
       </CardContent>
     </Card>

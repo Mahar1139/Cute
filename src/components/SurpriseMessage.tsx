@@ -18,7 +18,7 @@ export default function SurpriseMessage() {
   return (
     <div className="relative flex flex-col items-center justify-center text-center p-6">
       <FloatingHearts />
-      <div className="bg-card/80 backdrop-blur-sm p-6 sm:p-8 rounded-2xl shadow-2xl shadow-primary/20">
+      <div className="bg-card/80 backdrop-blur-sm p-6 sm:p-8 rounded-2xl shadow-2xl shadow-accent/20">
         {messageLines.map((line, index) => (
           <p
             key={index}

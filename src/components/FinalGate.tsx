@@ -22,7 +22,7 @@ export default function FinalGate({ onUnlock }: FinalGateProps) {
   };
 
   return (
-    <Card className="w-full max-w-md text-center animate-fade-in shadow-2xl shadow-primary/10">
+    <Card className="w-full max-w-md text-center animate-fade-in shadow-2xl shadow-accent/10 bg-card/80 backdrop-blur-sm">
       <CardHeader>
         <CardTitle className="text-2xl md:text-3xl font-headline">
           To unlock your surprise, click YES 5 times ❤️
@@ -32,6 +32,7 @@ export default function FinalGate({ onUnlock }: FinalGateProps) {
         <Button
           onClick={handleClick}
           size="lg"
+          variant="secondary"
           className="font-bold text-lg w-48 transform transition-transform hover:scale-110 active:scale-95"
           aria-label={`Click yes. ${
             CLICKS_REQUIRED - clickCount
